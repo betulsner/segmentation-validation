@@ -1,0 +1,35 @@
+# Data: download from Kaggle (see README), not redistributed here
+data/
+
+# Local reading material and tooling, not part of the research code
+Research Papers/
+overleaf-claude-mcp/
+
+# Personal working notes / documents
+CLAUDE.md
+betul_sener_cv.tex
+*.docx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data and generated artifacts
+*.png
+*.csv
+*.zip
+# ...except the figure the README embeds
+!rfm_heuristics.png
+
+# Environment and secrets
+.env
+*.env
+.overleaf/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
